@@ -1,0 +1,81 @@
+
+#kapsama{
+    display: block;
+    width: 700px;
+    height: 80px;
+    background-color: burlywood;
+    padding:10px 30px ;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+#kelime{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    padding: 0px 15px;
+    line-height: 30px;
+    border: 1px solid black;
+}
+#cevap{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    padding: 0px 15px;
+    border: 1px solid black;
+    outline: none;
+}
+#btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    margin-left: 80px;
+    border-radius: 30px;
+    transition: .5s;
+}
+#btn:hover{
+    background-color: coral;
+}
+#durum{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: -6px;
+    margin-left: 7px;
+    transition: all .2s;
+}
+.dogru{
+    background:#4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+.yanlis{
+    background:#fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+#tablo,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tablo{
+    width: 760px;
+    height:auto;
+    background-color: burlywood;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+th,td{
+    padding:10px;
+}
+#sonuc{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(148, 114, 69);
+    color: white;
+    margin-top: 10px;
+    line-height: 30px;
+    padding: 0px 15px;
+}
