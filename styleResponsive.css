@@ -14,13 +14,13 @@ body{
 }
 #kelime{
     display: inline-block;
-    width: 38%;
+    width: 33%;
     height: 30px;
     line-height: 30px;
     margin-left: 10px;
 }
 #cevap{
-    width: 38%;
+    width: 33%;
     height: 30px;
     line-height: 30px;
 }
