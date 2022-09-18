@@ -1643,7 +1643,7 @@
             btn.onclick = function(){
                 let kontrol = false;
                 cevaplar[sayi].forEach(gelenCevap=>{
-                    if(cevap.value.toUpperCase() == gelenCevap.toUpperCase()){
+                    if(cevap.value == gelenCevap){
                             durum.classList.add('dogru');
                             durum.classList.remove('yanlis');
                             // var tr = document.createElement('tr');
@@ -1698,7 +1698,6 @@
                 return randomSayi();
             }
         }
-
 
         // JSON FORMATINDA VERİ ÇEKME İŞLEMİ
         /*let jsonData = fetch("words.json")
