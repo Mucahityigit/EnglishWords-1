@@ -1643,7 +1643,7 @@
             btn.onclick = function(){
                 let kontrol = false;
                 cevaplar[sayi].forEach(gelenCevap=>{
-                    if(cevap.value == gelenCevap){
+                    if(cevap.value.toUpperCase() == gelenCevap.toUpperCase()){
                             durum.classList.add('dogru');
                             durum.classList.remove('yanlis');
                             // var tr = document.createElement('tr');
